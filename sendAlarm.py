@@ -7,7 +7,7 @@ from email.mime.application import MIMEApplication#傳送附件
 def send_mail(recipient, subject, message, file = ''):
    
     username = "gx.kao@advanced-tek.com.tw"
-    password = "Aa99405012!"
+    password = "**********!"
     
     msg = MIMEMultipart()
     msg['From'] = username
